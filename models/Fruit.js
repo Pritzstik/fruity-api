@@ -45,8 +45,8 @@ class Fruit {
         } else {
             throw 'Fruit not found'
         }
-
-    destroy() {}
+    }
+    destroy() {
         const deletedFruit =fruits.find(fruit => fruit.name.toLowerCase() == this.name.toLowerCase())
 
         if(deletedFruit) {
@@ -56,6 +56,7 @@ class Fruit {
         } else {
             throw 'Fruit not found'
         }
+    
     }
 }
 
