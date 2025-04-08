@@ -60,4 +60,4 @@ class Fruit {
     }
 }
 
-module.exports = { Fruit }
+module.exports =  Fruit 
